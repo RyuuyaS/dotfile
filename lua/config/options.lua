@@ -33,3 +33,5 @@ vim.api.nvim_create_autocmd("FileType", {
     LaunchWing()
   end,
 })
+
+vim.g.lazyvim_python_lsp = "basedpyright"
